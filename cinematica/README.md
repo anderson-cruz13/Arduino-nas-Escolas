@@ -4,11 +4,11 @@
 <body>
     <div style="text-align: center;">
         <figure>
-            <img src="sensor_presenca.png" alt="Sensor de Presença" width="200">
+            <img src="imgs/sensor_presenca.png" alt="Sensor de Presença" width="200">
             <figcaption>1. Sensor de Presença</figcaption>
         </figure>
         <figure>
-            <img src="arduino.png" alt="Arduino UNO" width="200">
+            <img src="imgs/arduino.png" alt="Arduino UNO" width="200">
             <figcaption>2. Arduino UNO</figcaption>
         </figure>
     </div>
@@ -44,11 +44,11 @@ Experimento de cinemática que consiste em medir a velocidade de um objeto em mo
 <body>
     <div style="text-align: center;">
         <figure>
-            <img src="circuito.png" width="300">
+            <img src="imgs/circuito.png" width="300">
             <figcaption>3. Circuito</figcaption>
         </figure>
         <figure>
-            <img src="sistema_esqueletico.png" width="300">
+            <img src="imgs/sistema_esqueletico.png" width="300">
             <figcaption>4. Vista esquemática</figcaption>
         </figure>
     </div>
@@ -96,4 +96,8 @@ void loop() {
   }
 }
 ```
+## Ferramentas
+<div>
+<img src="imgs/arduino_ide.png" width=25> <img src="imgs/platformio.png" width=25> <img src="imgs/vs.png" width=25> <img src="imgs/tinkercad.png" width=78>
+</div>
 
