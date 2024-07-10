@@ -20,7 +20,6 @@ O sensor ultrassônico possui 4 pinos (VCC, GND, TRIG, ECHO).
 * **GND:** Fornece uma referÊncia de terra;
 * **TRIG:** Envia o pulso ultrassônico;
 * **ECHO:** Recebe o eco do pulso ultrassônico;
-1. Conecte o pino VCC do sensor ao pino 5V do Arduino
 
 ## Medição da velocidade
 Experimento de cinemática que consiste em medir a velocidade de um objeto em movimento utilizando um sensor de presença.
