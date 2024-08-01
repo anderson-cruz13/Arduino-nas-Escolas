@@ -81,13 +81,42 @@ void morseCode(String message) {
 
 void morseChar(char c) {
   switch (c) {
-    case 'A': Serial.println(".-"); dot(); dash(); break;    // .-
-    case 'N': Serial.println("-."); dash(); dot(); break;    // -.
-    case 'D': Serial.println("-.."); dash(); dot(); dot(); break; // -..
-    case 'E': Serial.println("."); dot(); break;            // .
-    case 'R': Serial.println(".-."); dot(); dash(); dot(); break; // .-.
-    case 'S': Serial.println("..."); dot(); dot(); dot(); break;  // ...
-    case 'O': Serial.println("---"); dash(); dash(); dash(); break; // ---
+    case 'A': Serial.println(".-"); dot(); dash(); break;
+    case 'B': Serial.println("-..."); dash(); dot(); dot(); dot(); break;
+    case 'C': Serial.println("-.-."); dash(); dot(); dash(); dot(); break;
+    case 'D': Serial.println("-.."); dash(); dot(); dot(); break;
+    case 'E': Serial.println("."); dot(); break;
+    case 'F': Serial.println("..-."); dot(); dot(); dash(); dot(); break;
+    case 'G': Serial.println("--."); dash(); dash(); dot(); break;
+    case 'H': Serial.println("...."); dot(); dot(); dot(); dot(); break;
+    case 'I': Serial.println(".."); dot(); dot(); break;
+    case 'J': Serial.println(".---"); dot(); dash(); dash(); dash(); break;
+    case 'K': Serial.println("-.-"); dash(); dot(); dash(); break;
+    case 'L': Serial.println(".-.."); dot(); dash(); dot(); dot(); break;
+    case 'M': Serial.println("--"); dash(); dash(); break;
+    case 'N': Serial.println("-."); dash(); dot(); break;
+    case 'O': Serial.println("---"); dash(); dash(); dash(); break;
+    case 'P': Serial.println(".--."); dot(); dash(); dash(); dot(); break;
+    case 'Q': Serial.println("--.-"); dash(); dash(); dot(); dash(); break;
+    case 'R': Serial.println(".-."); dot(); dash(); dot(); break;
+    case 'S': Serial.println("..."); dot(); dot(); dot(); break;
+    case 'T': Serial.println("-"); dash(); break;
+    case 'U': Serial.println("..-"); dot(); dot(); dash(); break;
+    case 'V': Serial.println("...-"); dot(); dot(); dot(); dash(); break;
+    case 'W': Serial.println(".--"); dot(); dash(); dash(); break;
+    case 'X': Serial.println("-..-"); dash(); dot(); dot(); dash(); break;
+    case 'Y': Serial.println("-.--"); dash(); dot(); dash(); dash(); break;
+    case 'Z': Serial.println("--.."); dash(); dash(); dot(); dot(); break;
+    case '0': Serial.println("-----"); dash(); dash(); dash(); dash(); dash(); break;
+    case '1': Serial.println(".----"); dot(); dash(); dash(); dash(); dash(); break;
+    case '2': Serial.println("..---"); dot(); dot(); dash(); dash(); dash(); break;
+    case '3': Serial.println("...--"); dot(); dot(); dot(); dash(); dash(); break;
+    case '4': Serial.println("....-"); dot(); dot(); dot(); dot(); dash(); break;
+    case '5': Serial.println("....."); dot(); dot(); dot(); dot(); dot(); break;
+    case '6': Serial.println("-...."); dash(); dot(); dot(); dot(); dot(); break;
+    case '7': Serial.println("--..."); dash(); dash(); dot(); dot(); dot(); break;
+    case '8': Serial.println("---.."); dash(); dash(); dash(); dot(); dot(); break;
+    case '9': Serial.println("----."); dash(); dash(); dash(); dash(); dot(); break;
     default: break;
   }
   delay(3000); // Espaço entre caracteres na mesma letra (3 unidades)
