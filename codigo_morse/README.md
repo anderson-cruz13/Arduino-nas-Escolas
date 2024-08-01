@@ -71,10 +71,10 @@ void morseCode(String message) {
     Serial.print("Letra: ");
     Serial.println(c);
     if (c == ' ') {
-      delay(7000); // Espaço entre palavras (7 unidades)
+      delay(700); // Espaço entre palavras (7 unidades)
     } else {
       morseChar(c);
-      delay(3000); // Espaço entre letras (3 unidades)
+      delay(300); // Espaço entre letras (3 unidades)
     }
   }
 }
@@ -119,19 +119,20 @@ void morseChar(char c) {
     case '9': Serial.println("----."); dash(); dash(); dash(); dash(); dot(); break;
     default: break;
   }
-  delay(3000); // Espaço entre caracteres na mesma letra (3 unidades)
+  delay(300); // Espaço entre caracteres na mesma letra (3 unidades)
 }
 
 void dot() {
   digitalWrite(LedPinDot, HIGH);
-  delay(1000); // 1 unidade de tempo
+  delay(1000); // 1seg
   digitalWrite(LedPinDot, LOW);
   delay(1000); // Espaço entre sinais
 }
 
 void dash() {
   digitalWrite(LedPinDash, HIGH);
-  delay(3000); // 3 unidades de tempo
+  delay(1000); // 1seg
   digitalWrite(LedPinDash, LOW);
   delay(1000); // Espaço entre sinais
 }
+```
